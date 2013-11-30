@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">迷你人人</string>
+    <string name="action_settings">Settings</string>
+    <string name="title1">这种导弹的平均航速为5倍音速</string>
+    <string name="title2">这种导弹的平均航速为5倍音速</string>
+    <string name="title3">这种导弹的平均航速为5倍音速</string>
+    <string name="title4">这种导弹的平均航速为5倍音速</string>
+    <string name="title5">这种导弹的平均航速为5倍音速</string>
+    <string name="title6">这种导弹的平均航速为5倍音速</string>
+    <string name="title7">这种导弹的平均航速为5倍音速</string>
+    <string name="test">美国《空军》杂志、西班牙《世界报》等媒体报道，美军计划在今年内多次试射高超音速导弹，从而将其作为威慑中俄的强力武器。有外媒指出，解放军已开发出可拦截高速导弹的防控系统，而且有潜力进一步开发拦截高超音速导弹的防空武器。
+
+
+美国《空军》杂志报道，美军将在2013年继续试射高超音速巡航导弹，这种导弹的平均航速为5倍音速，最高瞬时航速达到7倍音速。对于目前全球所有的防卫系统来说，它都是无法防御的导弹。美国《防务新闻》更是声称，美军的“高超音速攻击时代”即将来临，目前各国军队尚无能力对这种高速攻击目标进行有效拦截，任何导弹防御系统在它面前都形同虚设。
+
+西班牙《世界报》报道，从2013年3月到12月，美军可能进行3次重要的实验，如果一切顺利，美军可能于2014年尝试装备少量的高超音速导弹，这种导弹有望在未来5年内形成战斗力。
+
+报道认为，美军高超音速导弹所形成的威胁以及对世界格局的影响难以估量。美国可能在一些“敏感区域”部署这种导弹，例如东亚地区，而朝鲜和伊朗的核设施也可能成为它的攻击目标。报道强调，美军高超音速导弹的主要作用是对其他军事大国实施威慑，主要是中国和俄罗斯。
+
+据俄罗斯《军工信使》周刊指出，解放军在防范超音速导弹攻击方面“已经追赶上来”，中国某国防工业公开发的代号为LD-2000的陆基防空系统，已经被证实具备实战能力。这种防空系统可为高价值目标，包括指挥所、弹道导弹发射装置等提供保护。LD-2000防空系统发射的导弹拦截高速飞行的导弹和飞机，尤其擅长对付雷达反射面积较小的隐身巡航导弹及高速巡航导弹。报道揣测，它可以准确拦截飞行速度超过两倍音速的超音速导弹。通过改进其控制软件，该系统还可用来拦截高速火箭弹和迫击炮弹。
+
+报道称，LD-2000系统可加装在军用卡车底盘上，从而实现机动部署，在需要它的地方构建防范超音速导弹的密集导弹阵。这种导弹集群的火力可与美军著名的“密集阵”(专门防御来袭空中目标的防空导弹集群)媲美。
+
+报道称，LD-2000是一款针对出口市场的产品，解放军肯定同步开发了自用型号，而且其性能必然优于LD-2000，应该可以防范速度更快的来袭目标，例如航速达到三四倍音速的巡航导弹。报道认为，这表明解放军有能力开发用来对付美军高超音速导弹的防御系统。</string>
+    <string name="title_activity_web_view__login">WebView_Login</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_web_login">登录人人</string>
+    <string name="right_fragment_var1">分    类</string>
+    <string name="right_fragment_var2">人人图标</string>
+    <string name="right_fragment_var3">好友状态</string>
+    <string name="right_fragment_var4">好友照片</string>
+    <string name="right_fragment_var5">说明我是宽度自适应的...</string>
+    <string name="xlistview_header_hint_normal">xxx</string>
+    <string name="xlistview_header_last_time">yyy</string>
+    <string name="xlistview_header_hint_ready">已完成更新</string>
+    <string name="xlistview_header_hint_loading">正在更新</string>
+
+</resources>

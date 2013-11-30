@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banner_unit"
+        android:padding="7dip" >
+
+        <ImageView
+            android:id="@+id/iv_user_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:clickable="true"
+            android:src="@drawable/booklist_menu_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:text="用户信息"
+            android:textColor="#000"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="0.1"
+            android:clickable="true"
+            android:src="@drawable/back_normal"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+      <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/booklist_bg_unit"
+        android:padding="10dip" >
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/iv_icon_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_icon"
+            android:layout_alignRight="@+id/iv_icon"
+            android:src="@drawable/renren_ball32"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_basic_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/iv_icon"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF333333"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_status_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_basic_info"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/iv_icon"
+            android:textColor="#ff888888"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="8dip"
+            android:text="基本信息"
+            android:textColor="#FF333333"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_type_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF333333"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.5dip"
+        android:background="@drawable/line_read_option" />
+    
+    
+    <RelativeLayout
+        android:id="@+id/rl_friends"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/booklist_bg_unit">
+
+        <TextView
+            android:id="@+id/tv_friends_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="10dip"
+            android:paddingLeft="20dip"
+            android:paddingTop="10dp"
+            android:text="查看好友"
+            android:textColor="#ff005092"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dip"
+            android:src="@drawable/arrow_to_right" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/tv_friends_count"
+            android:background="@drawable/line_read_option" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.5dip"
+        android:background="@drawable/line_read_option" />
+
+    <TextView
+        android:id="@+id/tv_renren_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingLeft="20dip"
+        android:paddingTop="10dp"
+        android:textColor="#80333333"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line_read_option" />
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingLeft="20dip"
+        android:paddingTop="10dp"
+        android:textColor="#80333333"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line_read_option" />
+
+    <TextView
+        android:id="@+id/tv_birth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingLeft="20dip"
+        android:paddingTop="10dp"
+        android:textColor="#80333333"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line_read_option" />
+
+    <TextView
+        android:id="@+id/tv_hometown"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingLeft="20dip"
+        android:paddingTop="10dp"
+        android:textColor="#80333333"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line_read_option" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:text="退出登录" />
+
+</LinearLayout>
