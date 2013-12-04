@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.minirenren.fragment"
@@ -32,4 +33,39 @@
         <activity android:name="net.minirenren.fragment.PhotoDetailsActivity"></activity>
     </application>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.minirenren.fragment"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/favourites"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="net.minirenren.fragment.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="net.minirenren.fragment.DetailsActivity" >
+        </activity>
+        <activity
+            android:name="net.minirenren.fragment.WebLoginActivity"
+            android:label="@string/title_activity_web_login" >
+        </activity>
+    </application>
+
+>>>>>>> c171dfe974f6f0bede63cb5e8d3d31ff6e8c84f3
 </manifest>

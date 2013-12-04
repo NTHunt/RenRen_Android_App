@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
@@ -16,4 +17,24 @@
     <string name="xlistview_header_hint_ready">已完成更新</string>
     <string name="xlistview_header_hint_loading">正在更新</string>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">迷你人人</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_web_view__login">WebView_Login</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_web_login">登录人人</string>
+    <string name="right_fragment_var1">分    类</string>
+    <string name="right_fragment_var2">人人图标</string>
+    <string name="right_fragment_var3">好友状态</string>
+    <string name="right_fragment_var4">好友照片</string>
+    <string name="right_fragment_var5">说明我是宽度自适应的</string>
+    <string name="xlistview_header_hint_normal">xxx</string>
+    <string name="xlistview_header_last_time">yyy</string>
+    <string name="xlistview_header_hint_ready">已完成更新</string>
+    <string name="xlistview_header_hint_loading">正在更新</string>
+
+>>>>>>> c171dfe974f6f0bede63cb5e8d3d31ff6e8c84f3
 </resources>

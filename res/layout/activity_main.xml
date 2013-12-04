@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <net.minirenren.view.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/slidingMenu"
     android:layout_width="fill_parent"
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<net.minirenren.view.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slidingMenu"
+    android:layout_width="fill_parent"
+>>>>>>> c171dfe974f6f0bede63cb5e8d3d31ff6e8c84f3
     android:layout_height="fill_parent" />

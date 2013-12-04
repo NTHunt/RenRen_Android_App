@@ -36,8 +36,13 @@ public class MainListFragment_State extends ListFragment {//用于显示人人状态列表
 
 	private String access_token;
 	
+<<<<<<< HEAD
 	private int pageNum_State;//指示当前人人状态新鲜事页面编号，默认每页30个新鲜事
 	//private int pageNum_phone;//指示当前人人照片新鲜事页面编号，默认每页30个新鲜事
+=======
+	private int pageNum_State;//指示当前人人状态新鲜事页面编号，默认每页20个新鲜事
+	//private int pageNum_phone;//指示当前人人照片新鲜事页面编号，默认每页20个新鲜事
+>>>>>>> c171dfe974f6f0bede63cb5e8d3d31ff6e8c84f3
 	
     static MainListFragment_State newInstance(String access_token) {
     	MainListFragment_State f = new MainListFragment_State();
@@ -122,6 +127,7 @@ public class MainListFragment_State extends ListFragment {//用于显示人人状态列表
 		super.onListItemClick(l, v, position, id);
 		Log.d("----->", position + "");
 		
+<<<<<<< HEAD
 		@SuppressWarnings("unchecked")
 		Map<String, Object> state_data=(Map<String, Object>) l.getItemAtPosition(position);
 		
@@ -140,6 +146,13 @@ public class MainListFragment_State extends ListFragment {//用于显示人人状态列表
 		bundle.putString("source", (String)state_data.get("source"));
 		
 		intent.putExtras(bundle);
+=======
+		//Map<String, Object> state_data=(Map<String, Object>) l.getItemAtPosition(position);
+		
+		Intent intent = new Intent(getActivity(), DetailsActivity.class);
+		//Bundle bundle=new Bundle();
+		//bundle.putString("news_type", "state");
+>>>>>>> c171dfe974f6f0bede63cb5e8d3d31ff6e8c84f3
 		startActivity(intent);
 	}
 	private class RenRenStateNewsAsyncTask extends AsyncTask<String, Integer, String> {	  
@@ -147,7 +160,11 @@ public class MainListFragment_State extends ListFragment {//用于显示人人状态列表
 		HttpClient clientToRenRen;
 		HttpGet getURL;
 
+<<<<<<< HEAD
 		private static final String renrenNews_State_Url="https://api.renren.com/v2/feed/list?access_token=%s&feedType=UPDATE_STATUS&pageSize=30&pageNumber=%s";
+=======
+		private static final String renrenNews_State_Url="https://api.renren.com/v2/feed/list?access_token=%s&feedType=UPDATE_STATUS&pageSize=20&pageNumber=%s";
+>>>>>>> c171dfe974f6f0bede63cb5e8d3d31ff6e8c84f3
 	    /**  
 	     * 这里的Integer参数对应AsyncTask中的第一个参数   
 	     * 这里的String返回值对应AsyncTask的第三个参数  

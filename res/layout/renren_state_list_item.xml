@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
@@ -142,3 +143,149 @@
     </LinearLayout>
 
 </RelativeLayout>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <!-- 头像 -->
+
+    <ImageView
+        android:id="@+id/iv_user_image_statenews"
+        android:layout_width="43.0dip"
+        android:layout_height="43.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="8.0dip"
+        android:saveEnabled="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="8dip"
+        android:layout_toRightOf="@+id/iv_user_image_statenews"
+        android:orientation="vertical"
+        android:paddingBottom="8dip" >
+
+        <!-- 昵称 -->
+
+        <TextView
+            android:id="@+id/tv_nickname_statenews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff005092"
+            android:textSize="16sp" />
+
+        <!-- 内容 -->
+
+        <TextView
+            android:id="@+id/tv_content_statenews"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:textColor="#000000"
+            android:textSize="15.0sp" />
+
+        <!-- 更新状态 -->
+
+        <LinearLayout
+            android:id="@+id/ll_update_status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_nickname_statenews"
+            android:layout_below="@+id/tv_content_statenews"
+            android:layout_marginTop="8dip"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <View
+                android:layout_width="2dip"
+                android:layout_height="fill_parent"
+                android:background="#20333333" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_status_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周杰伦"
+                    android:textColor="#ff005092"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_status_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="开心"
+                    android:textColor="#ff888888"
+                    android:textSize="13sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- 时间 -->
+
+            <TextView
+                android:id="@+id/tv_published_statenews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:drawablePadding="3dip"
+                android:textColor="#ff666666"
+                android:textSize="12.0sp" />
+
+            <!-- 来源 -->
+
+            <TextView
+                android:id="@+id/tv_source_statenews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="8.0dip"
+                android:layout_toRightOf="@+id/tv_published_statenews"
+                android:textColor="#ff666666"
+                android:textSize="13.0sp" />
+
+        </RelativeLayout>
+
+        <!-- 用于显示图片 -->
+
+        <ImageView
+            android:id="@+id/iv_content_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+
+        <!-- 评论信息 -->
+
+        <LinearLayout
+            android:id="@+id/ll_comments_content_statenews"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7.0dip"
+            android:background="@drawable/booklist_bg_unit"
+            android:orientation="vertical"
+            android:padding="10dip"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</RelativeLayout>
+>>>>>>> c171dfe974f6f0bede63cb5e8d3d31ff6e8c84f3
