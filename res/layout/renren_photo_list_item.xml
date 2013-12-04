@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <!-- 头像 -->
+
+    <ImageView
+        android:id="@+id/iv_user_image_photonews"
+        android:layout_width="43.0dip"
+        android:layout_height="43.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="8.0dip"
+        android:saveEnabled="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="8dip"
+        android:layout_toRightOf="@+id/iv_user_image_photonews"
+        android:orientation="vertical"
+        android:paddingBottom="8dip" >
+
+        <!-- 昵称 -->
+
+        <TextView
+            android:id="@+id/tv_nickname_photonews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff005092"
+            android:textSize="16sp" />
+
+        <!-- 内容 -->
+
+        <TextView
+            android:id="@+id/tv_content_photonews"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:textColor="#000000"
+            android:textSize="15.0sp" />
+        
+        <!-- 上传的照片-->
+
+        <ImageView
+            android:id="@+id/iv_photo_image_photonews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" />
+
+       		<!--  人人官方的做法，显示固定大小的图片，并对原图进行剪裁。根据设置的宽高选择适中的区域进行裁剪--> 
+        	<!--
+                <ImageView
+                    android:id="@+id/iv_photo_image"
+                    android:layout_width="150dip"
+                    android:layout_height="150dip"
+                    android:layout_marginTop="10dip"
+                    android:scaleType="centerCrop" />
+        	-->
+        <TextView  
+            android:id="@+id/tv_photo_album"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="10dip"  
+            android:textColor="#ff888888"  
+            android:textSize="13sp" /> 
+        
+        
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- 时间 -->
+
+            <TextView
+                android:id="@+id/tv_published_photonews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:drawablePadding="3dip"
+                android:textColor="#ff666666"
+                android:textSize="12.0sp" />
+
+            <!-- 来源 -->
+
+            <TextView
+                android:id="@+id/tv_source_photonews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="8.0dip"
+                android:layout_toRightOf="@+id/tv_published_photonews"
+                android:textColor="#ff666666"
+                android:textSize="13.0sp" />
+
+        </RelativeLayout>
+        
+        
+        <!-- 评论信息 -->
+
+        <LinearLayout
+            android:id="@+id/ll_comments_content_photonews"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7.0dip"
+            android:background="@drawable/booklist_bg_unit"
+            android:orientation="vertical"
+            android:padding="10dip"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</RelativeLayout>
